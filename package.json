@@ -1,0 +1,16 @@
+{
+  "name": "@piphi/widget-solaredge-solar-energy",
+  "version": "0.1.5",
+  "private": true,
+  "type": "module",
+  "description": "PiPhi dashboard widgets for SolarEdge solar-energy integrations.",
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "validate": "npm test && python3 scripts/build_package.py --check"
+  },
+  "devDependencies": {
+    "piphi-network-widget-sdk": "0.6.1"
+  },
+  "engines": {"node": ">=22"},
+  "license": "MIT"
+}
